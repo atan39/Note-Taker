@@ -10,6 +10,9 @@ How to use this application is as follows.
     4. Add text to your note in the "Note Text"
     5. Lastly, click the save button in the top right of the screen.
 
+# Link
+https://note-takerrrrrrrrrr-d4f321110c19.herokuapp.com/notes
+
  # Credits
  Tutoring, TA's, and UofM bootcamp
 
