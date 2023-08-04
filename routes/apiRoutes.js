@@ -17,7 +17,13 @@ app.post('/notes', (req, res) => {
        title:req.body.title, 
        text:req.body.text,
        id:uuid(),
-    }
+    };
     readAndAppend(newNote, './db/db.json')
+    .then((data) => {
+        res.json(data)
+    });
+
+
+    
 });
 module.exports = app;
